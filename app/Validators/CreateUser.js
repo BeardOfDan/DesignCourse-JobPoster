@@ -11,8 +11,8 @@ class CreateUser {
 
   get messages() {
     return {
-      'required': 'Slow down, the {{ field }} is required',
-      'unique': 'Wait, that {{ field }} already exists'
+      'required': 'The {{ field }} is required',
+      'unique': 'That {{ field }} already exists'
     }
   }
 
